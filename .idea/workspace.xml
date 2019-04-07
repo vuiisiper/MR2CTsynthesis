@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc392bfd-e836-409d-86a4-40bf78adebce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/testNet0304.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataLoader_tif.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/DataLoader_tif.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NII2TIFF.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/NII2TIFF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testNet0304.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/testNet0304.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/testNet0304.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/code/testNet0304.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="45" column="89" selection-start-line="45" selection-start-column="89" selection-end-line="45" selection-end-column="89" />
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -129,6 +126,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1306" height="1017" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14927769" />
@@ -180,7 +178,7 @@
     <entry file="file://$PROJECT_DIR$/code/testNet0304.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="45" column="89" selection-start-line="45" selection-start-column="89" selection-end-line="45" selection-end-column="89" />
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>

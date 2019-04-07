@@ -43,6 +43,8 @@ if __name__ == '__main__':
     dir_test = os.path.join(dir_data,'MR_CT_data', 'Test')
     dir_valid = os.path.join(dir_data,'MR_CT_data', 'Valid')
     FILEPATH_MODEL_SAVE = os.path.join(dir_model, '{}.pt'.format(TIME_STAMP)) # save model here
+    # FILEPATH_MODEL_LOAD = os.path.join(dir_model, '{}.pt'.format(TIME_STAMP)) # load model weights to resume training
+    FILEPATH_MODEL_LOAD=None
     FILEPATH_LOG = os.path.join(dir_log, '{}.bin'.format(TIME_STAMP)) # save loss history here
 
     ## Training parameters
@@ -69,7 +71,20 @@ if __name__ == '__main__':
     model11 = unet11(pretrained=True).to(device)
     criterion = nn.MSELoss()
     optimizer = torch.optim.Adam(model11.parameters(), lr=lr)
-    print('Debug here')
+
+    ##  resuming a training session
+    if FILEPATH_MODEL_LOAD is not None:
+        train_states = torch.load(FILEPATH_MODEL_LOAD)
+        model11.load_state_dict(train_states['train_states_latest']['model_state_dict'])
+        optimizer.load_state_dict(train_states['train_states_latest']['optimizer_state_dict'])
+        train_states_best = train_states['train_states_best']
+        # loss_valid_min=train_states_best['loss_valid_min'] # change
+        model_save_criteria = train_states_best['model_save_criteria']  # change
+
+    else:
+        train_states={}
+        model_save_criteria = np.inf
+
     ## Train
     loss_epoch_train=[]
     loss_epoch_valid=[]
