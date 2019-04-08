@@ -120,7 +120,7 @@ class Dataset(data.Dataset):
         return X, y
 
 #####
-
+#This are not required?
 # class MRCT_Dataset(data.Dataset):
 #     'characterizes a dataset for pytorch'
 #     def __init__(self, dir_data, list_IDs):
