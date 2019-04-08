@@ -22,11 +22,11 @@ def zero_padd(nrow,ncol,filepath):
     x = zp.shape[0] #192
     rowpad = np.zeros((x,int(ncol/2)))
     zp = np.hstack((rowpad, zp, rowpad))
-    zp = Image.fromarray(zp.astype(dtype=int))
+    zp = Image.fromarray(zp.astype(dtype=int)) #input(prompt)
     return zp.save(filepath)
 
 #The path is the main folder where branch folders start
-path = r'C:\Data\MR_CT_data'
+path = r'D:\MRI_CT_data\MRCTdata_2D_tifs'
 main_path = os.path.join(path)
 main_path_norm = os.path.normpath(main_path)
 FoldList = os.listdir(main_path)
@@ -38,3 +38,5 @@ for each in FoldList:
         FileList = glob.glob(os.path.join(mod_path,'*'))
         for ii in FileList:
             zero_padd(20,4,ii)
+
+
