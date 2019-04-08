@@ -7,9 +7,9 @@ def zero_padd(nrow,ncol,filepath):
     input image size: 172x220 => zero padded size: 192x220
     then put nrow = 20, ncol = 4
     filepath = 'C:\\Data\\MR_CT_data\\Train\\MR_train\\MR_0002.tif'
-    :param nrow:
-    :param ncol:
-    :param filepath:
+    :param nrow
+    :param ncol
+    :param filepath
     :return: saves the zero padded image in same name same folder
     rana.banik@vanderbilt.edu
     """
@@ -25,7 +25,7 @@ def zero_padd(nrow,ncol,filepath):
     zp = Image.fromarray(zp.astype(dtype=int))
     return zp.save(filepath)
 
-
+#The path is the main folder where branch folders start
 path = r'C:\Data\MR_CT_data'
 main_path = os.path.join(path)
 main_path_norm = os.path.normpath(main_path)
