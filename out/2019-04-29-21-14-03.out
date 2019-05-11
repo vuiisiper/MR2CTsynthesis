@@ -1,0 +1,21 @@
+2019-04-29-21-14-03
+--------------------------------------------------------------------------------------------------------------------
+batchSize: 60
+epoch: 100
+lr: 0.001
+--------------------------------------------------------------------------------------------------------------------
+train directory has 42 samples
+validation directory has 6 samples
+test directory has 6 samples
+using pretrained vgg11 as encoder
+epoch: 1/100, batch: 1/42, loss-train: 22272550912.0000, batch time taken: 2.78s, eta_epoch: 0.03 hours
+epoch: 1/100, batch: 2/42, loss-train: 22630494208.0000, batch time taken: 1.28s, eta_epoch: 0.02 hours
+epoch: 1/100, batch: 3/42, loss-train: 22125857450.6667, batch time taken: 1.26s, eta_epoch: 0.02 hours
+epoch: 1/100, batch: 4/42, loss-train: 246837745664.0000, batch time taken: 1.24s, eta_epoch: 0.02 hours
+epoch: 1/100, batch: 5/42, loss-train: 201608145715.2000, batch time taken: 1.27s, eta_epoch: 0.02 hours
+epoch: 1/100, batch: 6/42, loss-train: 171710422357.3333, batch time taken: 1.30s, eta_epoch: 0.02 hours
+epoch: 1/100, batch: 7/42, loss-train: 150421343085.7143, batch time taken: 1.27s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 8/42, loss-train: 134258590464.0000, batch time taken: 1.27s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 9/42, loss-train: 121751934520.8889, batch time taken: 1.27s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 10/42, loss-train: 111682948096.0000, batch time taken: 1.24s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 11/42, loss-train: 103515799738.1818, batch time taken: 1.24s, eta_epoch: 0.01 hours

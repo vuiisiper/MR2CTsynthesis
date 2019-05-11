@@ -1,0 +1,24 @@
+2019-04-30-00-04-25
+--------------------------------------------------------------------------------------------------------------------
+batchSize: 64
+epoch: 60
+lr: 0.01
+--------------------------------------------------------------------------------------------------------------------
+D:\PaddedMRCT\Images\Train
+train directory has 39 samples
+D:\PaddedMRCT\Images\Valid
+validation directory has 5 samples
+D:\PaddedMRCT\Images\Test
+test directory has 5 samples
+using pretrained vgg11 as encoder
+epoch: 1/60, batch: 1/39, loss-train: 22275758080.0000, batch time taken: 2.31s, eta_epoch: 0.02 hours
+epoch: 1/60, batch: 2/39, loss-train: 2590966550140877669400576.0000, batch time taken: 1.02s, eta_epoch: 0.02 hours
+epoch: 1/60, batch: 3/39, loss-train: 1907359133883605060681728.0000, batch time taken: 0.98s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 4/39, loss-train: 1516388097399091879739392.0000, batch time taken: 1.03s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 5/39, loss-train: 1269854680302637253918720.0000, batch time taken: 0.99s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 6/39, loss-train: 1100550060272083512852480.0000, batch time taken: 1.02s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 7/39, loss-train: 979450873661817473728512.0000, batch time taken: 0.99s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 8/39, loss-train: 884997271455200245186560.0000, batch time taken: 0.96s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 9/39, loss-train: 814561016567721808101376.0000, batch time taken: 1.00s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 10/39, loss-train: 756504258487679218352128.0000, batch time taken: 1.00s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 11/39, loss-train: 707567530318147599990784.0000, batch time taken: 0.98s, eta_epoch: 0.01 hours

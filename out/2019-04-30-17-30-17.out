@@ -1,0 +1,28 @@
+2019-04-30-17-30-17
+--------------------------------------------------------------------------------------------------------------------
+batchSize: 32
+epoch: 60
+lr: 0.001
+--------------------------------------------------------------------------------------------------------------------
+train directory has 2496 samples
+validation directory has 312 samples
+test directory has 312 samples
+using pretrained vgg11 as encoder
+epoch: 1/60, batch: 1/78, loss-train: 22410799104.0000, batch time taken: 2.07s, eta_epoch: 0.04 hours
+epoch: 1/60, batch: 2/78, loss-train: 22852761600.0000, batch time taken: 0.97s, eta_epoch: 0.03 hours
+epoch: 1/60, batch: 3/78, loss-train: 22676830208.0000, batch time taken: 1.23s, eta_epoch: 0.03 hours
+epoch: 1/60, batch: 4/78, loss-train: 32937096704.0000, batch time taken: 1.23s, eta_epoch: 0.03 hours
+epoch: 1/60, batch: 5/78, loss-train: 30580374323.2000, batch time taken: 1.24s, eta_epoch: 0.03 hours
+epoch: 1/60, batch: 6/78, loss-train: 29188235264.0000, batch time taken: 1.24s, eta_epoch: 0.03 hours
+epoch: 1/60, batch: 7/78, loss-train: 28235315785.1429, batch time taken: 1.20s, eta_epoch: 0.03 hours
+epoch: 1/60, batch: 8/78, loss-train: 27402043136.0000, batch time taken: 1.21s, eta_epoch: 0.03 hours
+epoch: 1/60, batch: 9/78, loss-train: 26930620871.1111, batch time taken: 1.18s, eta_epoch: 0.02 hours
+epoch: 1/60, batch: 10/78, loss-train: 26546643558.4000, batch time taken: 1.20s, eta_epoch: 0.02 hours
+epoch: 1/60, batch: 11/78, loss-train: 26112465454.5455, batch time taken: 1.19s, eta_epoch: 0.02 hours
+epoch: 1/60, batch: 12/78, loss-train: 25768151552.0000, batch time taken: 1.21s, eta_epoch: 0.02 hours
+epoch: 1/60, batch: 13/78, loss-train: 25484727374.7692, batch time taken: 1.22s, eta_epoch: 0.02 hours
+epoch: 1/60, batch: 14/78, loss-train: 25199899501.7143, batch time taken: 1.28s, eta_epoch: 0.02 hours
+epoch: 1/60, batch: 15/78, loss-train: 25004414839.4667, batch time taken: 1.21s, eta_epoch: 0.02 hours
+epoch: 1/60, batch: 16/78, loss-train: 24838373760.0000, batch time taken: 1.21s, eta_epoch: 0.02 hours
+epoch: 1/60, batch: 17/78, loss-train: 24667534034.8235, batch time taken: 1.21s, eta_epoch: 0.02 hours
+epoch: 1/60, batch: 18/78, loss-train: 24454186211.5556, batch time taken: 1.22s, eta_epoch: 0.02 hours

@@ -112,13 +112,13 @@ class Dataset(data.Dataset):
         # print(np.array(X).shape)
         X = np.array(X)
         # print(X.shape)
-        X = X[:128,:128] #values taken as a multiple of 32
+        # X = X[:128,:128] #values taken as a multiple of 32
         # X = X[:32,:32]
         # X = np.concatenate((X[:,:,np.newaxis],X[:,:,np.newaxis],X[:,:,np.newaxis]), axis=2)
         X = X[:,:,np.newaxis]
         X = ToTensor()(X)
         y = Image.open(path_ct)
-        y = np.array(y)[:128,:128,np.newaxis]
+        y = np.array(y)[:,:,np.newaxis]
         # y = np.array(y)[:32,:32,np.newaxis]
         y = ToTensor()(y)
         return X, y

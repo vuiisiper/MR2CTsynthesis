@@ -1,0 +1,52 @@
+2019-04-29-19-47-07
+--------------------------------------------------------------------------------------------------------------------
+batchSize: 60
+epoch: 100
+lr: 0.01
+--------------------------------------------------------------------------------------------------------------------
+train directory has 42 samples
+validation directory has 6 samples
+test directory has 6 samples
+using pretrained vgg11 as encoder
+epoch: 1/100, batch: 1/42, loss-train: 22563246080.0000, batch time taken: 2.27s, eta_epoch: 0.03 hours
+epoch: 1/100, batch: 2/42, loss-train: 527611634173928045012844544.0000, batch time taken: 0.96s, eta_epoch: 0.02 hours
+epoch: 1/100, batch: 3/42, loss-train: 699189178830760790806495232.0000, batch time taken: 0.91s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 4/42, loss-train: 780136695410752391709982720.0000, batch time taken: 0.90s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 5/42, loss-train: 812937208915050347915902976.0000, batch time taken: 0.92s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 6/42, loss-train: 856797533007236693688844288.0000, batch time taken: 0.92s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 7/42, loss-train: 867503687712558787378282496.0000, batch time taken: 0.93s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 8/42, loss-train: 880464671834775200798343168.0000, batch time taken: 0.94s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 9/42, loss-train: 882482742561981725939859456.0000, batch time taken: 0.93s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 10/42, loss-train: 885938221095791279235661824.0000, batch time taken: 0.95s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 11/42, loss-train: 891081362506517014483304448.0000, batch time taken: 0.91s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 12/42, loss-train: 887589877381655404591710208.0000, batch time taken: 0.91s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 13/42, loss-train: 884910264079053022291820544.0000, batch time taken: 0.91s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 14/42, loss-train: 881735023994530647183982592.0000, batch time taken: 0.92s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 15/42, loss-train: 890731147604525728430817280.0000, batch time taken: 0.93s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 16/42, loss-train: 893059458440575484380053504.0000, batch time taken: 0.93s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 17/42, loss-train: 892275078739028734214406144.0000, batch time taken: 0.90s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 18/42, loss-train: 891784615743061226866868224.0000, batch time taken: 0.93s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 19/42, loss-train: 894625658129486250265018368.0000, batch time taken: 0.91s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 20/42, loss-train: 895380286662337483774099456.0000, batch time taken: 0.91s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 21/42, loss-train: 893373043207644260824252416.0000, batch time taken: 0.93s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 22/42, loss-train: 897048515279480580240048128.0000, batch time taken: 0.94s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 23/42, loss-train: 895938421135826271153946624.0000, batch time taken: 0.91s, eta_epoch: 0.01 hours
+epoch: 1/100, batch: 24/42, loss-train: 898653788680751324816474112.0000, batch time taken: 0.95s, eta_epoch: 0.00 hours
+epoch: 1/100, batch: 25/42, loss-train: 896270909485741638462472192.0000, batch time taken: 0.93s, eta_epoch: 0.00 hours
+epoch: 1/100, batch: 26/42, loss-train: 891402076309000440107761664.0000, batch time taken: 0.92s, eta_epoch: 0.00 hours
+epoch: 1/100, batch: 27/42, loss-train: 893421700057605134589362176.0000, batch time taken: 0.93s, eta_epoch: 0.00 hours
+epoch: 1/100, batch: 28/42, loss-train: 899633915580745965073596416.0000, batch time taken: 0.93s, eta_epoch: 0.00 hours
+epoch: 1/100, batch: 29/42, loss-train: 904060324864334197076000768.0000, batch time taken: 0.96s, eta_epoch: 0.00 hours
+epoch: 1/100, batch: 30/42, loss-train: 907418052617076450166571008.0000, batch time taken: 0.93s, eta_epoch: 0.00 hours
+epoch: 1/100, batch: 31/42, loss-train: 908938955008960701061398528.0000, batch time taken: 0.91s, eta_epoch: 0.00 hours
+epoch: 1/100, batch: 32/42, loss-train: 911297007213117132825952256.0000, batch time taken: 0.94s, eta_epoch: 0.00 hours
+epoch: 1/100, batch: 33/42, loss-train: 911713833335908169647390720.0000, batch time taken: 0.92s, eta_epoch: 0.00 hours
+epoch: 1/100, batch: 34/42, loss-train: 912061468771474663129743360.0000, batch time taken: 0.94s, eta_epoch: 0.00 hours
+epoch: 1/100, batch: 35/42, loss-train: 911287831670852447367069696.0000, batch time taken: 0.91s, eta_epoch: 0.00 hours
+epoch: 1/100, batch: 36/42, loss-train: 915107207309610178532343808.0000, batch time taken: 0.94s, eta_epoch: 0.00 hours
+epoch: 1/100, batch: 37/42, loss-train: 915264121740594000619896832.0000, batch time taken: 0.93s, eta_epoch: 0.00 hours
+epoch: 1/100, batch: 38/42, loss-train: 913298823365244158543396864.0000, batch time taken: 0.95s, eta_epoch: 0.00 hours
+epoch: 1/100, batch: 39/42, loss-train: 912409096021978356918517760.0000, batch time taken: 0.96s, eta_epoch: 0.00 hours
+epoch: 1/100, batch: 40/42, loss-train: 916812151115007705294569472.0000, batch time taken: 0.92s, eta_epoch: 0.00 hours
+epoch: 1/100, batch: 41/42, loss-train: 916149273080710457806815232.0000, batch time taken: 0.94s, eta_epoch: 0.00 hours
+epoch: 1/100, batch: 42/42, loss-train: 918395675581418724246159360.0000, batch time taken: 0.55s, eta_epoch: 0.00 hours

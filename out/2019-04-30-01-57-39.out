@@ -1,0 +1,57 @@
+2019-04-30-01-57-39
+--------------------------------------------------------------------------------------------------------------------
+batchSize: 64
+epoch: 60
+lr: 0.001
+--------------------------------------------------------------------------------------------------------------------
+train directory has 39 samples
+validation directory has 5 samples
+test directory has 5 samples
+using pretrained vgg11 as encoder
+epoch: 1/60, batch: 1/39, loss-train: 1623.0856, batch time taken: 2.25s, eta_epoch: 0.02 hours
+epoch: 1/60, batch: 2/39, loss-train: 1201.5900, batch time taken: 0.95s, eta_epoch: 0.02 hours
+epoch: 1/60, batch: 3/39, loss-train: 23941.7059, batch time taken: 0.92s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 4/39, loss-train: 18055.9027, batch time taken: 0.93s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 5/39, loss-train: 14576.4236, batch time taken: 0.93s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 6/39, loss-train: 12290.7759, batch time taken: 0.93s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 7/39, loss-train: 10649.1495, batch time taken: 0.93s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 8/39, loss-train: 9434.6181, batch time taken: 0.92s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 9/39, loss-train: 8487.1721, batch time taken: 0.91s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 10/39, loss-train: 7727.9698, batch time taken: 0.91s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 11/39, loss-train: 7107.9502, batch time taken: 0.92s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 12/39, loss-train: 6580.5410, batch time taken: 0.93s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 13/39, loss-train: 6128.9382, batch time taken: 0.91s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 14/39, loss-train: 5730.7519, batch time taken: 0.92s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 15/39, loss-train: 5372.1512, batch time taken: 0.93s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 16/39, loss-train: 5111.7323, batch time taken: 0.93s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 17/39, loss-train: 4827.6085, batch time taken: 0.92s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 18/39, loss-train: 4575.0377, batch time taken: 0.92s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 19/39, loss-train: 4349.6754, batch time taken: 0.93s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 20/39, loss-train: 4146.2976, batch time taken: 0.91s, eta_epoch: 0.01 hours
+epoch: 1/60, batch: 21/39, loss-train: 3961.9941, batch time taken: 0.91s, eta_epoch: 0.00 hours
+epoch: 1/60, batch: 22/39, loss-train: 3793.0379, batch time taken: 0.92s, eta_epoch: 0.00 hours
+epoch: 1/60, batch: 23/39, loss-train: 3636.0338, batch time taken: 0.91s, eta_epoch: 0.00 hours
+epoch: 1/60, batch: 24/39, loss-train: 3491.3116, batch time taken: 0.91s, eta_epoch: 0.00 hours
+epoch: 1/60, batch: 25/39, loss-train: 3358.3816, batch time taken: 0.92s, eta_epoch: 0.00 hours
+epoch: 1/60, batch: 26/39, loss-train: 3234.7302, batch time taken: 0.92s, eta_epoch: 0.00 hours
+epoch: 1/60, batch: 27/39, loss-train: 3120.5173, batch time taken: 0.95s, eta_epoch: 0.00 hours
+epoch: 1/60, batch: 28/39, loss-train: 3014.7948, batch time taken: 0.93s, eta_epoch: 0.00 hours
+epoch: 1/60, batch: 29/39, loss-train: 2916.7278, batch time taken: 0.92s, eta_epoch: 0.00 hours
+epoch: 1/60, batch: 30/39, loss-train: 2824.7925, batch time taken: 0.93s, eta_epoch: 0.00 hours
+epoch: 1/60, batch: 31/39, loss-train: 2738.3312, batch time taken: 0.91s, eta_epoch: 0.00 hours
+epoch: 1/60, batch: 32/39, loss-train: 2656.9633, batch time taken: 0.94s, eta_epoch: 0.00 hours
+epoch: 1/60, batch: 33/39, loss-train: 2579.6343, batch time taken: 0.92s, eta_epoch: 0.00 hours
+epoch: 1/60, batch: 34/39, loss-train: 2506.4489, batch time taken: 0.92s, eta_epoch: 0.00 hours
+epoch: 1/60, batch: 35/39, loss-train: 2437.4751, batch time taken: 0.93s, eta_epoch: 0.00 hours
+epoch: 1/60, batch: 36/39, loss-train: 2372.2464, batch time taken: 0.92s, eta_epoch: 0.00 hours
+epoch: 1/60, batch: 37/39, loss-train: 2310.1821, batch time taken: 0.92s, eta_epoch: 0.00 hours
+epoch: 1/60, batch: 38/39, loss-train: 2251.5648, batch time taken: 0.92s, eta_epoch: 0.00 hours
+epoch: 1/60, batch: 39/39, loss-train: 2195.7364, batch time taken: 0.94s, eta_epoch: 0.00 hours
+epoch: 1/60, batch: 1/5, loss-valid: 65.4972
+epoch: 1/60, batch: 2/5, loss-valid: 23.3732
+epoch: 1/60, batch: 3/5, loss-valid: 18.2991
+epoch: 1/60, batch: 4/5, loss-valid: 16.3322
+epoch: 1/60, batch: 5/5, loss-valid: 7.1666
+criteria at the end of epoch 1 is 7.1666
+criteria decreased from inf to 7.1666, saving model...
+epoch: 2/60, batch: 1/39, loss-train: 59.0829, batch time taken: 0.95s, eta_epoch: 0.01 hours
