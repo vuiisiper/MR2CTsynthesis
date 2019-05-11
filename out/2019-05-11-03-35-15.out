@@ -1,0 +1,97 @@
+--------------------------------------------------------------------------------------------------------------------
+batch_size: 4
+dir_lf: D:\Data\MR2CTsynthesis
+dir_project: C:\Users\reasat\Projects\MR2CTsynthesis
+folder_data: MRCT_data_2D_256_256_tif
+gdlNorm: 2
+lambda_AD: 1.0
+lambda_gdl: 0.0001
+lambda_rec: 1e-05
+lr_netD: 1.0
+lr_netG: 1.0
+max_epochs: 50
+numOfChannel_allSource: 1
+pretrained: None
+rt_th: 0.005
+save_epoch: 10
+--------------------------------------------------------------------------------------------------------------------
+train directory has 2496 samples
+validation directory has 312 samples
+test directory has 312 samples
+training ...
+epoch: 1/50, batch: 1/624, lossD_real_avg: 0.7523, lossD_fake_avg: 0.6392, lossG_avg: 10.2157, lossG_G_avg: 6.4289, lossG_D_avg: 0.0000, lossG_gdl_avg: 3.7868, eta_epoch: 0.34 hours,
+epoch: 1/50, batch: 2/624, lossD_real_avg: 0.3761, lossD_fake_avg: 14.1351, lossG_avg: 9.9812, lossG_G_avg: 6.1852, lossG_D_avg: 0.0000, lossG_gdl_avg: 3.7960, eta_epoch: 0.19 hours,
+epoch: 1/50, batch: 3/624, lossD_real_avg: 0.2508, lossD_fake_avg: 18.6337, lossG_avg: 9.2590, lossG_G_avg: 5.5835, lossG_D_avg: 0.0000, lossG_gdl_avg: 3.6755, eta_epoch: 0.15 hours,
+epoch: 1/50, batch: 4/624, lossD_real_avg: 0.1881, lossD_fake_avg: 20.8831, lossG_avg: 8.2851, lossG_G_avg: 4.9580, lossG_D_avg: 0.0000, lossG_gdl_avg: 3.3270, eta_epoch: 0.12 hours,
+epoch: 1/50, batch: 5/624, lossD_real_avg: 0.1505, lossD_fake_avg: 22.2327, lossG_avg: 7.5568, lossG_G_avg: 4.3784, lossG_D_avg: 0.0000, lossG_gdl_avg: 3.1784, eta_epoch: 0.11 hours,
+epoch: 1/50, batch: 6/624, lossD_real_avg: 0.1254, lossD_fake_avg: 23.1324, lossG_avg: 7.0660, lossG_G_avg: 4.0362, lossG_D_avg: 0.0000, lossG_gdl_avg: 3.0299, eta_epoch: 0.10 hours,
+epoch: 1/50, batch: 7/624, lossD_real_avg: 0.1075, lossD_fake_avg: 23.7750, lossG_avg: 6.7497, lossG_G_avg: 3.8651, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.8846, eta_epoch: 0.09 hours,
+epoch: 1/50, batch: 8/624, lossD_real_avg: 0.0940, lossD_fake_avg: 24.2570, lossG_avg: 6.4683, lossG_G_avg: 3.6894, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.7788, eta_epoch: 0.08 hours,
+epoch: 1/50, batch: 9/624, lossD_real_avg: 0.0836, lossD_fake_avg: 24.6319, lossG_avg: 6.1715, lossG_G_avg: 3.5032, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.6684, eta_epoch: 0.08 hours,
+epoch: 1/50, batch: 10/624, lossD_real_avg: 0.0752, lossD_fake_avg: 24.9318, lossG_avg: 5.9620, lossG_G_avg: 3.3562, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.6058, eta_epoch: 0.08 hours,
+epoch: 1/50, batch: 11/624, lossD_real_avg: 0.0684, lossD_fake_avg: 25.1772, lossG_avg: 5.7206, lossG_G_avg: 3.1782, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.5424, eta_epoch: 0.07 hours,
+epoch: 1/50, batch: 12/624, lossD_real_avg: 0.0627, lossD_fake_avg: 25.3817, lossG_avg: 5.4991, lossG_G_avg: 3.0267, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.4724, eta_epoch: 0.07 hours,
+epoch: 1/50, batch: 13/624, lossD_real_avg: 0.0579, lossD_fake_avg: 25.5547, lossG_avg: 5.3007, lossG_G_avg: 2.8909, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.4098, eta_epoch: 0.07 hours,
+epoch: 1/50, batch: 14/624, lossD_real_avg: 0.0537, lossD_fake_avg: 25.7030, lossG_avg: 5.1581, lossG_G_avg: 2.7660, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.3921, eta_epoch: 0.07 hours,
+epoch: 1/50, batch: 15/624, lossD_real_avg: 0.0502, lossD_fake_avg: 25.8316, lossG_avg: 4.9922, lossG_G_avg: 2.6526, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.3396, eta_epoch: 0.06 hours,
+epoch: 1/50, batch: 16/624, lossD_real_avg: 0.0470, lossD_fake_avg: 25.9440, lossG_avg: 4.8755, lossG_G_avg: 2.5618, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.3137, eta_epoch: 0.06 hours,
+epoch: 1/50, batch: 17/624, lossD_real_avg: 0.0443, lossD_fake_avg: 26.0433, lossG_avg: 4.7748, lossG_G_avg: 2.4638, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.3111, eta_epoch: 0.06 hours,
+epoch: 1/50, batch: 18/624, lossD_real_avg: 0.0418, lossD_fake_avg: 26.1315, lossG_avg: 4.6742, lossG_G_avg: 2.3781, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.2962, eta_epoch: 0.06 hours,
+epoch: 1/50, batch: 19/624, lossD_real_avg: 0.0396, lossD_fake_avg: 26.2104, lossG_avg: 4.6110, lossG_G_avg: 2.3246, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.2864, eta_epoch: 0.06 hours,
+epoch: 1/50, batch: 20/624, lossD_real_avg: 0.0376, lossD_fake_avg: 26.2814, lossG_avg: 4.5109, lossG_G_avg: 2.2463, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.2646, eta_epoch: 0.06 hours,
+epoch: 1/50, batch: 21/624, lossD_real_avg: 0.0358, lossD_fake_avg: 26.3457, lossG_avg: 4.4197, lossG_G_avg: 2.1765, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.2432, eta_epoch: 0.06 hours,
+epoch: 1/50, batch: 22/624, lossD_real_avg: 0.0342, lossD_fake_avg: 26.4041, lossG_avg: 4.3367, lossG_G_avg: 2.1242, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.2125, eta_epoch: 0.06 hours,
+epoch: 1/50, batch: 23/624, lossD_real_avg: 0.0327, lossD_fake_avg: 26.4575, lossG_avg: 4.3236, lossG_G_avg: 2.1297, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.1939, eta_epoch: 0.06 hours,
+epoch: 1/50, batch: 24/624, lossD_real_avg: 0.0313, lossD_fake_avg: 26.5064, lossG_avg: 4.2912, lossG_G_avg: 2.1145, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.1767, eta_epoch: 0.06 hours,
+epoch: 1/50, batch: 25/624, lossD_real_avg: 0.0301, lossD_fake_avg: 26.5513, lossG_avg: 4.2316, lossG_G_avg: 2.0641, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.1676, eta_epoch: 0.06 hours,
+epoch: 1/50, batch: 26/624, lossD_real_avg: 0.0289, lossD_fake_avg: 26.5929, lossG_avg: 4.1842, lossG_G_avg: 2.0220, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.1622, eta_epoch: 0.06 hours,
+epoch: 1/50, batch: 27/624, lossD_real_avg: 0.0279, lossD_fake_avg: 26.6313, lossG_avg: 4.1313, lossG_G_avg: 1.9791, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.1522, eta_epoch: 0.06 hours,
+epoch: 1/50, batch: 28/624, lossD_real_avg: 0.0269, lossD_fake_avg: 26.6670, lossG_avg: 4.0910, lossG_G_avg: 1.9584, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.1327, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 29/624, lossD_real_avg: 0.0259, lossD_fake_avg: 26.7003, lossG_avg: 4.0467, lossG_G_avg: 1.9282, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.1186, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 30/624, lossD_real_avg: 0.0251, lossD_fake_avg: 26.7313, lossG_avg: 4.0030, lossG_G_avg: 1.8946, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.1084, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 31/624, lossD_real_avg: 0.0243, lossD_fake_avg: 26.7603, lossG_avg: 3.9837, lossG_G_avg: 1.8782, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.1055, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 32/624, lossD_real_avg: 0.0235, lossD_fake_avg: 26.7875, lossG_avg: 3.9485, lossG_G_avg: 1.8526, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.0959, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 33/624, lossD_real_avg: 0.0228, lossD_fake_avg: 26.8131, lossG_avg: 3.9179, lossG_G_avg: 1.8271, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.0908, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 34/624, lossD_real_avg: 0.0221, lossD_fake_avg: 26.8371, lossG_avg: 3.8675, lossG_G_avg: 1.7937, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.0738, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 35/624, lossD_real_avg: 0.0215, lossD_fake_avg: 26.8598, lossG_avg: 3.8355, lossG_G_avg: 1.7708, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.0647, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 36/624, lossD_real_avg: 0.0209, lossD_fake_avg: 26.8812, lossG_avg: 3.8068, lossG_G_avg: 1.7520, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.0548, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 37/624, lossD_real_avg: 0.0203, lossD_fake_avg: 26.9015, lossG_avg: 3.8074, lossG_G_avg: 1.7453, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.0621, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 38/624, lossD_real_avg: 0.0198, lossD_fake_avg: 26.9207, lossG_avg: 3.7765, lossG_G_avg: 1.7312, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.0454, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 39/624, lossD_real_avg: 0.0193, lossD_fake_avg: 26.9389, lossG_avg: 3.7431, lossG_G_avg: 1.7049, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.0383, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 40/624, lossD_real_avg: 0.0188, lossD_fake_avg: 26.9562, lossG_avg: 3.7113, lossG_G_avg: 1.6827, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.0286, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 41/624, lossD_real_avg: 0.0183, lossD_fake_avg: 26.9727, lossG_avg: 3.6940, lossG_G_avg: 1.6693, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.0247, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 42/624, lossD_real_avg: 0.0179, lossD_fake_avg: 26.9884, lossG_avg: 3.6631, lossG_G_avg: 1.6488, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.0143, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 43/624, lossD_real_avg: 0.0175, lossD_fake_avg: 27.0033, lossG_avg: 3.6401, lossG_G_avg: 1.6360, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.0040, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 44/624, lossD_real_avg: 0.0171, lossD_fake_avg: 27.0176, lossG_avg: 3.6288, lossG_G_avg: 1.6266, lossG_D_avg: 0.0000, lossG_gdl_avg: 2.0022, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 45/624, lossD_real_avg: 0.0167, lossD_fake_avg: 27.0312, lossG_avg: 3.6191, lossG_G_avg: 1.6208, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.9984, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 46/624, lossD_real_avg: 0.0164, lossD_fake_avg: 27.0442, lossG_avg: 3.5937, lossG_G_avg: 1.6079, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.9859, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 47/624, lossD_real_avg: 0.0160, lossD_fake_avg: 27.0567, lossG_avg: 3.5849, lossG_G_avg: 1.6016, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.9833, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 48/624, lossD_real_avg: 0.0157, lossD_fake_avg: 27.0687, lossG_avg: 3.5581, lossG_G_avg: 1.5840, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.9741, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 49/624, lossD_real_avg: 0.0154, lossD_fake_avg: 27.0802, lossG_avg: 3.5419, lossG_G_avg: 1.5715, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.9704, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 50/624, lossD_real_avg: 0.0150, lossD_fake_avg: 27.0912, lossG_avg: 3.5313, lossG_G_avg: 1.5612, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.9701, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 51/624, lossD_real_avg: 0.0148, lossD_fake_avg: 27.1018, lossG_avg: 3.5142, lossG_G_avg: 1.5542, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.9600, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 52/624, lossD_real_avg: 0.0145, lossD_fake_avg: 27.1119, lossG_avg: 3.4986, lossG_G_avg: 1.5439, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.9548, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 53/624, lossD_real_avg: 0.0142, lossD_fake_avg: 27.1217, lossG_avg: 3.4828, lossG_G_avg: 1.5326, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.9501, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 54/624, lossD_real_avg: 0.0139, lossD_fake_avg: 27.1312, lossG_avg: 3.4734, lossG_G_avg: 1.5342, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.9391, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 55/624, lossD_real_avg: 0.0137, lossD_fake_avg: 27.1403, lossG_avg: 3.4734, lossG_G_avg: 1.5357, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.9377, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 56/624, lossD_real_avg: 0.0134, lossD_fake_avg: 27.1490, lossG_avg: 3.4655, lossG_G_avg: 1.5302, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.9353, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 57/624, lossD_real_avg: 0.0132, lossD_fake_avg: 27.1575, lossG_avg: 3.4544, lossG_G_avg: 1.5226, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.9318, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 58/624, lossD_real_avg: 0.0130, lossD_fake_avg: 27.1656, lossG_avg: 3.4386, lossG_G_avg: 1.5135, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.9251, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 59/624, lossD_real_avg: 0.0128, lossD_fake_avg: 27.1735, lossG_avg: 3.4294, lossG_G_avg: 1.5080, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.9214, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 60/624, lossD_real_avg: 0.0125, lossD_fake_avg: 27.1812, lossG_avg: 3.4068, lossG_G_avg: 1.4943, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.9124, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 61/624, lossD_real_avg: 0.0123, lossD_fake_avg: 27.1885, lossG_avg: 3.3996, lossG_G_avg: 1.4881, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.9114, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 62/624, lossD_real_avg: 0.0121, lossD_fake_avg: 27.1957, lossG_avg: 3.3939, lossG_G_avg: 1.4819, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.9120, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 63/624, lossD_real_avg: 0.0119, lossD_fake_avg: 27.2026, lossG_avg: 3.3798, lossG_G_avg: 1.4731, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.9067, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 64/624, lossD_real_avg: 0.0118, lossD_fake_avg: 27.2093, lossG_avg: 3.3679, lossG_G_avg: 1.4643, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.9036, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 65/624, lossD_real_avg: 0.0116, lossD_fake_avg: 27.2158, lossG_avg: 3.3508, lossG_G_avg: 1.4542, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.8966, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 66/624, lossD_real_avg: 0.0114, lossD_fake_avg: 27.2221, lossG_avg: 3.3447, lossG_G_avg: 1.4468, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.8979, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 67/624, lossD_real_avg: 0.0112, lossD_fake_avg: 27.2282, lossG_avg: 3.3372, lossG_G_avg: 1.4403, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.8969, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 68/624, lossD_real_avg: 0.0111, lossD_fake_avg: 27.2341, lossG_avg: 3.3296, lossG_G_avg: 1.4343, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.8954, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 69/624, lossD_real_avg: 0.0109, lossD_fake_avg: 27.2398, lossG_avg: 3.3169, lossG_G_avg: 1.4250, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.8919, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 70/624, lossD_real_avg: 0.0107, lossD_fake_avg: 27.2454, lossG_avg: 3.3088, lossG_G_avg: 1.4188, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.8900, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 71/624, lossD_real_avg: 0.0106, lossD_fake_avg: 27.2509, lossG_avg: 3.2953, lossG_G_avg: 1.4104, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.8848, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 72/624, lossD_real_avg: 0.0104, lossD_fake_avg: 27.2561, lossG_avg: 3.2815, lossG_G_avg: 1.4025, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.8790, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 73/624, lossD_real_avg: 0.0103, lossD_fake_avg: 27.2613, lossG_avg: 3.2751, lossG_G_avg: 1.3985, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.8767, eta_epoch: 0.05 hours,
+epoch: 1/50, batch: 74/624, lossD_real_avg: 0.0102, lossD_fake_avg: 27.2663, lossG_avg: 3.2775, lossG_G_avg: 1.3993, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.8782, eta_epoch: 0.04 hours,
+epoch: 1/50, batch: 75/624, lossD_real_avg: 0.0100, lossD_fake_avg: 27.2711, lossG_avg: 3.2750, lossG_G_avg: 1.3959, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.8791, eta_epoch: 0.04 hours,
+epoch: 1/50, batch: 76/624, lossD_real_avg: 0.0099, lossD_fake_avg: 27.2759, lossG_avg: 3.2649, lossG_G_avg: 1.3882, lossG_D_avg: 0.0000, lossG_gdl_avg: 1.8768, eta_epoch: 0.04 hours,

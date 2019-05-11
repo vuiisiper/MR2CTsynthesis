@@ -88,7 +88,7 @@ if __name__ == '__main__':
         '--------------------------------------------------------------------------------------------------------------------')
     with open(filepath_cfg,'w') as file:
         for item in config_ls:
-            file.write('{}: {}'.format(item[0], item[1]))
+            file.write('{}: {}\n'.format(item[0], item[1]))
     ## Training parameters
 
     max_epochs = args.max_epochs
