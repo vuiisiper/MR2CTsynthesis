@@ -5,7 +5,6 @@ from torch.backends import cudnn
 import torch.nn as nn
 import os
 import sys
-import Logger
 # from UNet_models import unet11
 import time
 import numpy as np
@@ -46,19 +45,20 @@ if __name__ == '__main__':
     # dir_lf = r'D:\Data\MR2CTsynthesis'
     # dir_data = os.path.join(dir_lf,'MRCT_data_2D_256_256_tif')
     parser = argparse.ArgumentParser()
-    parser.add_argument('dir_project', default = r'C:\Users\reasat\Projects\MR2CTsynthesis')
-    parser.add_argument('dir_lf', help = 'directory of large file, (data, trained, model, output)', default = r'D:\Data\MR2CTsynthesis')
-    parser.add_argument('folder_data', help = 'data folder e.g. MRCT_data_2D_256_256_tif', default = 'MRCT_data_2D_256_256_tif')
-    parser.add_argument('max_epochs',type = int)
-    parser.add_argument('save_epoch',type = int)
-    parser.add_argument('lr_netG',type = float)
-    parser.add_argument('lr_netD',type = float)
-    parser.add_argument('gdlNorm',type = int,default=2)
-    parser.add_argument('batch_size',type = int)
-    parser.add_argument('lambda_rec',type = float)
-    parser.add_argument('lambda_AD',type = float)
-    parser.add_argument('lambda_gdl',type = float)
-    parser.add_argument('numOfChannel_allSource',type = int,default=1)
+    parser.add_argument('--dir_project', default = r'C:\Users\reasat\Projects\MR2CTsynthesis')
+    parser.add_argument('--dir_lf', help = 'directory of large file, (data, trained, model, output)', default = r'D:\Data\MR2CTsynthesis')
+    parser.add_argument('--folder_data', help = 'data folder e.g. MRCT_data_2D_256_256_tif', default = 'MRCT_data_2D_256_256_tif')
+    parser.add_argument('--max_epochs',type = int, required= True)
+    parser.add_argument('--save_epoch',type = int, required= True)
+    parser.add_argument('--lr_netG',type = float, required= True)
+    parser.add_argument('--lr_netD',type = float, required= True)
+    parser.add_argument('--rt_th',type = int,default=0.005)
+    parser.add_argument('--gdlNorm',type = int,default=2)
+    parser.add_argument('--batch_size',type = int, required= True)
+    parser.add_argument('--lambda_rec',type = float, required= True)
+    parser.add_argument('--lambda_AD',type = float, required= True)
+    parser.add_argument('--lambda_gdl',type = float, required= True)
+    parser.add_argument('--numOfChannel_allSource',type = int,default=1)
     parser.add_argument('--pretrained')
     args = parser.parse_args()
     dir_data = os.path.join(args.dir_lf,args.folder_data)

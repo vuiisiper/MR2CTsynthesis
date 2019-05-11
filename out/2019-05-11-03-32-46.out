@@ -1,0 +1,16 @@
+--------------------------------------------------------------------------------------------------------------------
+batch_size: 4
+dir_lf: D:\Data\MR2CTsynthesis
+dir_project: C:\Users\reasat\Projects\MR2CTsynthesis
+folder_data: MRCT_data_2D_256_256_tif
+gdlNorm: 2
+lambda_AD: 1.0
+lambda_gdl: 1.0
+lambda_rec: 1e-06
+lr_netD: 0.1
+lr_netG: 0.1
+max_epochs: 50
+numOfChannel_allSource: 1
+pretrained: None
+save_epoch: 10
+--------------------------------------------------------------------------------------------------------------------
