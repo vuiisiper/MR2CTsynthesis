@@ -5,5 +5,5 @@ code adapted from https://github.com/ginobilinie/medSynthesisV1
 
 paper: https://ieeexplore.ieee.org/abstract/document/8310638
 
-Also includes code used to produce the results in the BMES 2019 abstract
+Also includes code used to produce the results in the BMES 2019 poster
 
